@@ -1,4 +1,4 @@
-import React from "react";
+
 // import profileimg from '/profileimg.png';
 
 export function Hero() {

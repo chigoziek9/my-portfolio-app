@@ -1,5 +1,7 @@
 "use client";
-import React from "react";
+
+
+
 
 type NavLink = {
   name: string;
@@ -9,7 +11,9 @@ type NavLink = {
 type SocialIcon = {
   name: string;
   href: string;
-  svg: JSX.Element;
+ svg: React.ReactNode;
+
+
 };
 
 function Footer2() {

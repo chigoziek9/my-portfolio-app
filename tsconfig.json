@@ -12,6 +12,15 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    
+    /* 🚀 Required for React + Vite + TypeScript */
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+
+    /* Recommended strict settings */
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
   }
 }

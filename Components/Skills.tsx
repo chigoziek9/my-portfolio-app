@@ -1,5 +1,5 @@
-import React from "react";
-import SkillBar from "../Components/SkillBar";
+
+import SkillBar from "../Components/Skillbar";
 
 export function Skills() {
   type ButtonType = {

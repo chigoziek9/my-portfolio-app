@@ -1,4 +1,4 @@
-import React from "react";
+
 
 type LineWithCircleProps = {
   /** total height of the component (css units) */
@@ -30,7 +30,7 @@ export const LineWithCircle: React.FC<LineWithCircleProps> = ({
   lineThickness = 4,
   color = "#3b82f6",
   className = "",
-  position = "center",
+
 }) => {
   // compute dynamic styles
   const circleStyle: React.CSSProperties = {
@@ -50,10 +50,7 @@ export const LineWithCircle: React.FC<LineWithCircleProps> = ({
   // The container uses flex column to stack: top-line -> circle -> bottom-line
 
   // Which segment gets the extra space depends on `position`
-  const topFlex = position === "top" ? 0.2 : position === "center" ? 1 : 1.8;
-  const bottomFlex =
-    position === "bottom" ? 0.2 : position === "center" ? 1 : 1.8;
-
+ 
   return (
     <div
       className={`inline-flex items-center justify-center ${className}`}

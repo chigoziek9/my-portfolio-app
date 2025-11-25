@@ -1,10 +1,13 @@
-import React from "react";
+
 import LineWithcircle from "./LineWithCircle";
+
+
 
 export function Experience() {
   type Card = {
     title: string;
-    description: JSX.Element;
+   description: React.ReactNode;
+
   };
 
   const cards: Card[] = [
