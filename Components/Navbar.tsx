@@ -118,7 +118,7 @@ export function Navbars() {
             Skills
           </NavbarLink>
           <NavbarLink href="#projects" className="text-[#e0e9f0]">
-            Projects
+            Project
           </NavbarLink>
           <NavbarLink href="#experience" className="text-[#e0e9f0]">
             Experience
