@@ -30,15 +30,15 @@ export function Projects() {
         "Optimizing every aspect to ensure fast load times and smooth interactions.",
       image: "/portfolio.png",
       stack: "React, Tailwind CSS, Typescript",
-      link: "https://my-portfolio-app-orcin-beta.vercel.app/",
+      link: "https://chigoziekingsley.vercel.app/",
     },
     {
-      title: "Fruit Juice And Parfait Shop",
+      title: "Perfume E-commerce Shop",
       description:
-        "Using cutting-edge technologies to build future-proof applications.",
-      image: "/Roots.png",
-      stack: "React, Tailwind CSS, Framer Motion, JavaScript",
-      link: "https://rootsnjuices.vercel.app/",
+        "A modern E-commerce platform specializing in perfumes with user-friendly navigation and secure checkout.",
+      image: "/perfume.png",
+      stack: "React, Tailwind CSS, Framer Motion, TypeScript",
+      link: "https://https://oryna-scents.vercel.app/",
     },
   ];
 
