@@ -38,8 +38,27 @@ export function Projects() {
         "A modern E-commerce platform specializing in perfumes with user-friendly navigation and secure checkout.",
       image: "/perfume.png",
       stack: "React, Tailwind CSS, Framer Motion, TypeScript",
-      link: "https://https://oryna-scents.vercel.app/",
+      link: "https://oryna-scents.vercel.app/",
     },
+   {
+  title: "Roots N Juices",
+  description:
+    "A vibrant brand-focused juice platform showcasing products with smooth animations, clear product sections, and an engaging user experience optimized for all screen sizes.",
+  image: "/fruit1.png",
+  stack: "React, Tailwind CSS, Framer Motion, TypeScript",
+  link: "https://rootsndjuices.vercel.app/",
+},
+{
+  title: "Fruit Juice Website",
+  description:
+    "A responsive e-commerce-style juice website designed to highlight product variety, pricing, and promotions with intuitive navigation and a clean, modern layout.",
+  image: "/fruit2.png",
+  stack: "React, Tailwind CSS, Framer Motion, TypeScript",
+  link: "  https://rootsnjuices.vercel.app/",
+},
+
+   
+   
   ];
 
   return (
