@@ -17,6 +17,14 @@ export function Projects() {
       link: "https://realty-finder.vercel.app/",
     },
     {
+      title: "Female Hair Website",
+      description:
+        "LuxeNigs is a premium e-commerce platform offering high-end, hand-crafted wigs and extensions for the modern woman. We provide a seamless shopping experience designed to enhance natural beauty and offer effortless style transformations.",
+      image: "/hair.png",
+      stack: "React, Tailwind CSS, Framer Motion, TypeScript",
+      link: "  https://luxewigs.vercel.app/",
+    },
+    {
       title: "E-commerce Platform",
       description:
         "A modern, full-featured e-commerce platform with shopping cart, payment integration, and real-time inventory management.",
@@ -40,25 +48,22 @@ export function Projects() {
       stack: "React, Tailwind CSS, Framer Motion, TypeScript",
       link: "https://oryna-scents.vercel.app/",
     },
-   {
-  title: "Roots N Juices",
-  description:
-    "A vibrant brand-focused juice platform showcasing products with smooth animations, clear product sections, and an engaging user experience optimized for all screen sizes.",
-  image: "/fruit1.png",
-  stack: "React, Tailwind CSS, Framer Motion, TypeScript",
-  link: "https://rootsndjuices.vercel.app/",
-},
-{
-  title: "Fruit Juice Website",
-  description:
-    "A responsive e-commerce-style juice website designed to highlight product variety, pricing, and promotions with intuitive navigation and a clean, modern layout.",
-  image: "/fruit2.png",
-  stack: "React, Tailwind CSS, Framer Motion, TypeScript",
-  link: "  https://rootsnjuices.vercel.app/",
-},
-
-   
-   
+    {
+      title: "Roots N Juices",
+      description:
+        "A vibrant brand-focused juice platform showcasing products with smooth animations, clear product sections, and an engaging user experience optimized for all screen sizes.",
+      image: "/fruit1.png",
+      stack: "React, Tailwind CSS, Framer Motion, TypeScript",
+      link: "https://rootsndjuices.vercel.app/",
+    },
+    {
+      title: "Fruit Juice Website",
+      description:
+        "A responsive e-commerce-style juice website designed to highlight product variety, pricing, and promotions with intuitive navigation and a clean, modern layout.",
+      image: "/fruit2.png",
+      stack: "React, Tailwind CSS, Framer Motion, TypeScript",
+      link: "  https://rootsnjuices.vercel.app/",
+    },
   ];
 
   return (
